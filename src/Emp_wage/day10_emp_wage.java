@@ -20,7 +20,6 @@ public class day10_emp_wage {
 		this.max_working_days = max_working_days;
 		this.max_working_hrs = max_working_hrs;
 		this.rate_per_hr = rate_per_hr;
-
 	}
 
 
@@ -28,7 +27,6 @@ public class day10_emp_wage {
 
 		int totalempwage=0;
 		
-
 		while(totalworkinghrs<=max_working_hrs && totalworkingdays<=max_working_days)
 		{
 			int random1 = (int)(Math.random()*10)%3;
@@ -61,12 +59,9 @@ public class day10_emp_wage {
 				System.out.println("Daily wage of an empolyee for day "+totalworkingdays+" is "+daily_wage);
 			}
 			
-			
 		}
 		System.out.println("Employee in an company "+company + " earned his monthly empwage by working "+(totalworkingdays-1)+" days is "+totalempwage+" with total hours of "+totalworkinghrs );
 		
-		
-
 	}
 	public static void main(String[] args) {
 
